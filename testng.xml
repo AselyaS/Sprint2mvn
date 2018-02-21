@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+    <test name="Simple Test">
+        <classes>
+            <class name="com.google.tests.GoogleHomePageTest"/>
+        </classes>
+
+        <groups>
+            <run>
+
+                <include name="broken" />
+                <include name="smoke" />
+
+            </run>
+        </groups>
+
+
+    </test>
+</suite>

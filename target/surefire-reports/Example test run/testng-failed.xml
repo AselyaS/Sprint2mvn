@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Example test run]">
+  <test name="Simple Test(failed)">
+    <classes>
+      <class name="com.google.tests.GoogleHomePageTest">
+        <methods>
+          <include name="test"/>
+          <include name="testSetUp"/>
+          <include name="tearDown"/>
+          <include name="verifyGooglePageTittle"/>
+        </methods>
+      </class> <!-- com.google.tests.GoogleHomePageTest -->
+    </classes>
+  </test> <!-- Simple Test(failed) -->
+</suite> <!-- Failed suite [Example test run] -->
